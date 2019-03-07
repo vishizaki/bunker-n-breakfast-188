@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(version: 2018_11_15_194241) do
     t.text "address"
     t.float "price"
     t.text "description"
-    t.string "photo"
+    t.string "picture"
     t.boolean "is_available", default: true
     t.bigint "user_id"
     t.datetime "created_at", null: false
